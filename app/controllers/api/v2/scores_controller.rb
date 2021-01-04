@@ -1,4 +1,4 @@
-class Api::V1::ScoresController < Api::V1::BaseController
+class Api::V2::ScoresController < Api::V2::BaseController
   def index
     @sinister = params[:sinister]
     @years = params[:years]

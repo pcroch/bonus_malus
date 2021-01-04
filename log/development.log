@@ -7189,3 +7189,112 @@ Processing by Api::V1::ScoresController#index as JSON
 Completed 406 Not Acceptable in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 162)
 
 
+Started GET "/api/v1/scores?sinister[]=5&years[]=1&pro[]=false" for ::1 at 2021-01-04 17:22:30 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["5"], "years"=>["1"], "pro"=>["false"]}
+Completed 406 Not Acceptable in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 156)
+
+
+Started GET "/api/v2/scores?sinister[]=5&years[]=1&pro[]=false" for ::1 at 2021-01-04 17:29:48 +0100
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["5"], "years"=>["1"], "pro"=>["false"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 163)
+
+
+Started GET "/api/v2/" for ::1 at 2021-01-04 17:29:54 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/api/v2"):
+  
+actionpack (6.0.3.4) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.1.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.1.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.1.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.4) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.4) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.4) lib/rails/rack/logger.rb:26:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.4) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+railties (6.0.3.4) lib/rails/engine.rb:527:in `call'
+puma (4.3.7) lib/puma/configuration.rb:228:in `call'
+puma (4.3.7) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.7) lib/puma/server.rb:472:in `process_client'
+puma (4.3.7) lib/puma/server.rb:328:in `block in run'
+puma (4.3.7) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started GET "/" for ::1 at 2021-01-04 17:30:02 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/pierre/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/pierre/.rbenv/versions/2.6.6/lib/ruby/gems/2.6.0/gems/railties-6.0.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 7.3ms | Allocations: 189)
+Completed 200 OK in 11ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 846)
+
+
+Started GET "/api/v2/scores?sinister[]=5&years[]=1&pro[]=false" for ::1 at 2021-01-04 17:30:35 +0100
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["5"], "years"=>["1"], "pro"=>["false"]}
+Completed 406 Not Acceptable in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 156)
+
+
+Started GET "/api/v2/scores?sinister[]=5&years[]=1&pro[]=" for ::1 at 2021-01-04 17:30:38 +0100
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["5"], "years"=>["1"], "pro"=>[""]}
+Completed 406 Not Acceptable in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 156)
+
+
+Started GET "/api/v2/scores?sinister[]=5&years[]=1" for ::1 at 2021-01-04 17:30:46 +0100
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["5"], "years"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 153)
+
+
+Started GET "/api/v2/scores?sinister[]=5&years[]=1&pro[]=falsedd" for ::1 at 2021-01-04 17:30:51 +0100
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["5"], "years"=>["1"], "pro"=>["falsedd"]}
+Completed 406 Not Acceptable in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 156)
+
+
+Started GET "/api/v2/scores?sinister[]=5&years[]=1&pro[]=false" for ::1 at 2021-01-04 17:30:56 +0100
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["5"], "years"=>["1"], "pro"=>["false"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 156)
+
+
+Started GET "/api/v2/scores?sinister[]=1&years[]=1&pro[]=false" for ::1 at 2021-01-04 17:31:01 +0100
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 375)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/api/v2/scores_controller.rb:45:in `professional'
+app/controllers/api/v2/scores_controller.rb:55:in `computation'
+app/controllers/api/v2/scores_controller.rb:38:in `min_max_value'
+app/controllers/api/v2/scores_controller.rb:25:in `no_value'
+app/controllers/api/v2/scores_controller.rb:15:in `no_string'
+app/controllers/api/v2/scores_controller.rb:6:in `index'
+Started GET "/api/v2/scores?sinister[]=1&years[]=1&pro[]=false" for ::1 at 2021-01-04 17:32:35 +0100
+  
+SyntaxError (/home/pierre/code/pcroch/bonus_malus/app/controllers/api/v2/scores_controller.rb:45: formal argument cannot be an instance variable
+  def professional(@pro)
+                   ^~~~):
+  
+app/controllers/api/v2/scores_controller.rb:45: formal argument cannot be an instance variable
+app/controllers/api/v2/scores_controller.rb:45: formal argument cannot be an instance variable
+app/controllers/api/v2/scores_controller.rb:45: formal argument cannot be an instance variable
+Started GET "/api/v2/scores?sinister[]=1&years[]=1&pro[]=false" for ::1 at 2021-01-04 17:32:55 +0100
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 134)
+
+
