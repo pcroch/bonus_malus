@@ -7150,3 +7150,42 @@ Processing by Api::V1::ScoresController#index as JSON
 Completed 406 Not Acceptable in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 202)
 
 
+Started GET "/api/v1/scores?sinister[]=5&years[]=1&pro[]=false" for ::1 at 2021-01-04 15:10:38 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["5"], "years"=>["1"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 73ms (ActiveRecord: 0.0ms | Allocations: 24035)
+
+
+  
+NoMethodError (undefined method `render_errors' for #<Api::V1::ScoresController:0x00007fe6188a8788>
+Did you mean?  render_errors_layout):
+  
+app/controllers/api/v1/base_controller.rb:31:in `render_errors_min_max'
+app/controllers/api/v1/scores_controller.rb:48:in `min_max_value'
+app/controllers/api/v1/scores_controller.rb:36:in `no_value'
+app/controllers/api/v1/scores_controller.rb:26:in `no_string'
+app/controllers/api/v1/scores_controller.rb:8:in `index'
+Started GET "/api/v1/scores?sinister[]=5&years[]=1&pro[]=false" for ::1 at 2021-01-04 15:10:49 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["5"], "years"=>["1"], "pro"=>["false"]}
+Completed 406 Not Acceptable in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 170)
+
+
+Started GET "/api/v1/scores?sinister[]=5&years[]=1&pro[]=false" for ::1 at 2021-01-04 15:16:34 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["5"], "years"=>["1"], "pro"=>["false"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 163)
+
+
+Started GET "/api/v1/scores?sinister[]=5&years[]=1&pro[]=false" for ::1 at 2021-01-04 15:16:34 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["5"], "years"=>["1"], "pro"=>["false"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 156)
+
+
+Started GET "/api/v1/scores?sinister[]=5&years[]=1&pro[]=false" for ::1 at 2021-01-04 15:39:07 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["5"], "years"=>["1"], "pro"=>["false"]}
+Completed 406 Not Acceptable in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 162)
+
+
