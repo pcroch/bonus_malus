@@ -8327,3 +8327,20 @@ Processing by Api::V2::ScoresController#index as JSON
 Completed 406 Not Acceptable in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 159)
 
 
+Started GET "/api/v2/scores?sinister[]=2&years[]=2&pro[]=1" for ::1 at 2021-01-04 19:07:01 +0100
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 125)
+
+
+Started GET "/api/v2/scores" for ::1 at 2021-01-04 19:07:13 +0100
+Processing by Api::V2::ScoresController#index as JSON
+Completed 406 Not Acceptable in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 145)
+
+
+Started GET "/api/v2/scores?sinister[]=2&years[]=2&pro[]=1" for ::1 at 2021-01-04 19:07:37 +0100
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 125)
+
+
