@@ -7298,3 +7298,60 @@ Processing by Api::V2::ScoresController#index as JSON
 Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 134)
 
 
+Started GET "/api/v2/scores?sinister[]=1&years[]=1&pro[]=false" for ::1 at 2021-01-04 17:33:40 +0100
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["false"]}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 127)
+
+
+Started GET "/api/v2/scores?sinister[]=1&years[]=1&pro[]=false" for ::1 at 2021-01-04 17:47:44 +0100
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["false"]}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 127)
+
+
+Started GET "/api/v2/scores?sinister[]=1&years[]=1&pro[]=false" for ::1 at 2021-01-04 17:49:10 +0100
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 133)
+
+
+Started GET "/api/v2/scores?sinister[]=1&years[]=1&pro[]=false" for ::1 at 2021-01-04 17:49:11 +0100
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 127)
+
+
+Started GET "/api/v2/scores?sinister[]=1&years[]=18777676&pro[]=false" for ::1 at 2021-01-04 17:49:15 +0100
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["18777676"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 130)
+
+
+Started GET "/api/v2/scores?sinister[]=12&years[]=18777676&pro[]=false" for ::1 at 2021-01-04 17:49:20 +0100
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["12"], "years"=>["18777676"], "pro"=>["false"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 156)
+
+
+Started GET "/api/v2/scores?sinister[]=1&years[]=18777676&pro[]=false" for ::1 at 2021-01-04 17:49:24 +0100
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["18777676"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 130)
+
+
+Started GET "/api/v2/scores?sinister[]=1&years[]=18777676&pro[]=" for ::1 at 2021-01-04 17:49:27 +0100
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["18777676"], "pro"=>[""]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 385)
+
+
+  
+TypeError (nil can't be coerced into Integer):
+  
+app/controllers/api/v2/scores_controller.rb:55:in `+'
+app/controllers/api/v2/scores_controller.rb:55:in `computation'
+app/controllers/api/v2/scores_controller.rb:38:in `min_max_value'
+app/controllers/api/v2/scores_controller.rb:25:in `no_value'
+app/controllers/api/v2/scores_controller.rb:15:in `no_string'
+app/controllers/api/v2/scores_controller.rb:6:in `index'

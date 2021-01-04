@@ -42,7 +42,7 @@ class Api::V2::ScoresController < Api::V2::BaseController
     end
   end
 
-  def professional(str)
+  def professional
     if @pro == 'true'
       3
     elsif @pro == 'false'
@@ -52,7 +52,7 @@ class Api::V2::ScoresController < Api::V2::BaseController
 
   def computation
     bonus_array = [11, 16, 21]
-    score = bonus_array[@sinister] + professional(@pro) - @years
+    score = bonus_array[@sinister] + professional - @years
     score > -2 ? score : -2
     # for debuggin only ( add return to above line if in use)
     # p score
