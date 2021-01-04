@@ -1,23 +1,28 @@
 class Api::V1::ScoresController < Api::V1::BaseController
 
+  # def initialize
+  #   @sinister = nil
+  #   @years = nil
+  #   @pro = nil
+  # end
+
   def index
 
      p "hello"
-     # p
- p params[:sinister].present?
-    # p permitted.to_h.size
+
+ p params[:years]
+
        p "bye bye"
 
-
-
-
+ unless @years.nil? || @sinister.nil? || @pro.nil?
     @sinister = params[:sinister][0].to_i
     @years = params[:years][0].to_i
     @pro = params[:pro][0]
-
     render json: { Bonus_Malus_Score: computation, status: :success }
+  else
+    render json: { Bonus_Malus_Score: "Missing number of argements or values in querry string", status: :error }
   end
-
+end
   private
 # def check_params
 #       if params[:years].nil? || params[:sinister].nil? || params[:pro].nil?
@@ -47,17 +52,8 @@ class Api::V1::ScoresController < Api::V1::BaseController
     bonus_array = [11, 16, 21]
     score = bonus_array[@sinister] + professional(@pro) - @years
     return score > -2 ? score : -2
-
     p score
-    # unless score
-    #   render_errors([{ code: '3', message: 'Month not found' }], :not_found)
-    # end
   end
 end
 
 
-
-# render_errors_layout
-  # def product_params
-  #   permitted = params.require(:test).permit(:sinister, :years, :pro)
-  # end
