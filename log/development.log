@@ -5443,3 +5443,527 @@ Processing by Api::V1::ScoresController#index as JSON
 Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 175)
 
 
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:32:28 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 149)
+
+
+Started GET "/api/v1/scores?sinister[]=2&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:32:39 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 128)
+
+
+Started GET "/api/v1/scores?sinister[]=0&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:32:47 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 128)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:33:05 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 128)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:33:58 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 149)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:33:58 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 128)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:33:59 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 128)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:34:00 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 128)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:34:19 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 152)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:34:46 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 159)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:34:46 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 131)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:34:47 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 131)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:34:47 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 131)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:34:47 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 131)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:35:12 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 152)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:35:30 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 152)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:35:31 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 131)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:35:31 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 131)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:36:26 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 152)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:36:27 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 131)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:37:59 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 152)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:38:00 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 131)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:38:00 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 131)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:38:00 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 131)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:38:41 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 152)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:38:42 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 131)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:38:42 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 131)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:38:42 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 131)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:38:49 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 152)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:38:49 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 131)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:39:09 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 758)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/api/v1/scores_controller.rb:47:in `computation'
+app/controllers/api/v1/scores_controller.rb:15:in `index'
+Started GET "/api/v1/scores?sinister[]=2&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:39:43 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 164)
+
+
+Started GET "/api/v1/scores?sinister[]=2&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:40:19 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 152)
+
+
+Started GET "/api/v1/scores?sinister[]=2&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:40:31 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 184)
+
+
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:40:35 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 781)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/api/v1/scores_controller.rb:47:in `computation'
+app/controllers/api/v1/scores_controller.rb:15:in `index'
+Started GET "/api/v1/scores?sinister[]=4&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:42:50 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["4"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 152)
+
+
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:43:00 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 131)
+
+
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:45:21 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 182)
+
+
+Started GET "/api/v1/scores?sinister[]=5&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:45:30 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["5"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 784)
+
+
+  
+NoMethodError (undefined method `+' for nil:NilClass):
+  
+app/controllers/api/v1/scores_controller.rb:50:in `computation'
+app/controllers/api/v1/scores_controller.rb:20:in `index'
+Started GET "/api/v1/scores?sinister[]=5&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:48:18 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["5"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 125ms (ActiveRecord: 0.0ms | Allocations: 46095)
+
+
+  
+NameError (undefined local variable or method `querry_string_complete' for #<Api::V1::ScoresController:0x00007fe60c481080>):
+  
+app/controllers/api/v1/scores_controller.rb:9:in `index'
+Started GET "/api/v1/scores?sinister[]=5&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:48:19 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["5"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 194ms (ActiveRecord: 0.0ms | Allocations: 46109)
+
+
+  
+NameError (undefined local variable or method `querry_string_complete' for #<Api::V1::ScoresController:0x0000558c988db290>):
+  
+app/controllers/api/v1/scores_controller.rb:9:in `index'
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:48:22 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 143ms (ActiveRecord: 0.0ms | Allocations: 46111)
+
+
+  
+NameError (undefined local variable or method `querry_string_complete' for #<Api::V1::ScoresController:0x00007fe6149c5ef8>):
+  
+app/controllers/api/v1/scores_controller.rb:9:in `index'
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:49:27 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 188ms (ActiveRecord: 0.0ms | Allocations: 46087)
+
+
+  
+NameError (undefined local variable or method `querry_string_complete' for #<Api::V1::ScoresController:0x00007fe618914d98>):
+  
+app/controllers/api/v1/scores_controller.rb:9:in `index'
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:50:05 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 167ms (ActiveRecord: 0.0ms | Allocations: 46088)
+
+
+  
+NameError (undefined local variable or method `querry_string_complete' for #<Api::V1::ScoresController:0x00007fe6187ea3a0>):
+  
+app/controllers/api/v1/scores_controller.rb:9:in `index'
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:50:25 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 125ms (ActiveRecord: 0.0ms | Allocations: 46094)
+
+
+  
+NameError (undefined local variable or method `querry' for #<Api::V1::ScoresController:0x00007fe618932820>):
+  
+app/controllers/api/v1/scores_controller.rb:9:in `index'
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:50:42 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 119ms (ActiveRecord: 0.0ms | Allocations: 46091)
+
+
+  
+NameError (undefined local variable or method `querry' for #<Api::V1::ScoresController:0x00007fe618b200b0>):
+  
+app/controllers/api/v1/scores_controller.rb:9:in `index'
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:50:42 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 126ms (ActiveRecord: 0.0ms | Allocations: 46112)
+
+
+  
+NameError (undefined local variable or method `querry' for #<Api::V1::ScoresController:0x00007fe614b2d160>):
+  
+app/controllers/api/v1/scores_controller.rb:9:in `index'
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:51:13 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 155ms (ActiveRecord: 0.0ms | Allocations: 46087)
+
+
+  
+NameError (undefined local variable or method `querry' for #<Api::V1::ScoresController:0x00007fe60c48f9f0>):
+  
+app/controllers/api/v1/scores_controller.rb:9:in `index'
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:51:13 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 133ms (ActiveRecord: 0.0ms | Allocations: 46112)
+
+
+  
+NameError (undefined local variable or method `querry' for #<Api::V1::ScoresController:0x00007fe618b9db00>):
+  
+app/controllers/api/v1/scores_controller.rb:9:in `index'
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:51:28 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 119ms (ActiveRecord: 0.0ms | Allocations: 46091)
+
+
+  
+NameError (undefined local variable or method `querry' for #<Api::V1::ScoresController:0x00007fe6148fe1a0>):
+  
+app/controllers/api/v1/scores_controller.rb:9:in `index'
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:51:29 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 148ms (ActiveRecord: 0.0ms | Allocations: 46112)
+
+
+  
+NameError (undefined local variable or method `querry' for #<Api::V1::ScoresController:0x00007fe61c01f798>):
+  
+app/controllers/api/v1/scores_controller.rb:9:in `index'
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:51:35 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+No template found for Api::V1::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 2ms (ActiveRecord: 0.0ms | Allocations: 634)
+
+
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:51:36 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+No template found for Api::V1::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 149)
+
+
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:51:39 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+No template found for Api::V1::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 149)
+
+
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:53:01 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 756)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/scores_controller.rb:42:in `querry'
+app/controllers/api/v1/scores_controller.rb:17:in `index'
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:53:47 +0100
+  
+SyntaxError (/home/pierre/code/pcroch/bonus_malus/app/controllers/api/v1/scores_controller.rb:47: syntax error, unexpected tSTRING_BEG, expecting ';' or '\n'
+  p "aaa"
+    ^
+/home/pierre/code/pcroch/bonus_malus/app/controllers/api/v1/scores_controller.rb:48: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/api/v1/scores_controller.rb:47: syntax error, unexpected tSTRING_BEG, expecting ';' or '\n'
+app/controllers/api/v1/scores_controller.rb:48: syntax error, unexpected end, expecting end-of-input
+app/controllers/api/v1/scores_controller.rb:47: syntax error, unexpected tSTRING_BEG, expecting ';' or '\n'
+app/controllers/api/v1/scores_controller.rb:48: syntax error, unexpected end, expecting end-of-input
+app/controllers/api/v1/scores_controller.rb:47: syntax error, unexpected tSTRING_BEG, expecting ';' or '\n'
+app/controllers/api/v1/scores_controller.rb:48: syntax error, unexpected end, expecting end-of-input
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:54:02 +0100
+  
+SyntaxError (/home/pierre/code/pcroch/bonus_malus/app/controllers/api/v1/scores_controller.rb:64: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/api/v1/scores_controller.rb:64: syntax error, unexpected end, expecting end-of-input
+app/controllers/api/v1/scores_controller.rb:64: syntax error, unexpected end, expecting end-of-input
+app/controllers/api/v1/scores_controller.rb:64: syntax error, unexpected end, expecting end-of-input
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:54:29 +0100
+  
+SyntaxError (/home/pierre/code/pcroch/bonus_malus/app/controllers/api/v1/scores_controller.rb:64: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/api/v1/scores_controller.rb:64: syntax error, unexpected end, expecting end-of-input
+app/controllers/api/v1/scores_controller.rb:64: syntax error, unexpected end, expecting end-of-input
+app/controllers/api/v1/scores_controller.rb:64: syntax error, unexpected end, expecting end-of-input
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:54:46 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 743)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/scores_controller.rb:12:in `index'
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:55:14 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 739)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/scores_controller.rb:12:in `index'
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:55:15 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 765)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/scores_controller.rb:12:in `index'
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:55:15 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 761)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/scores_controller.rb:12:in `index'
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:55:15 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 759)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/scores_controller.rb:12:in `index'
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:55:15 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 759)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/scores_controller.rb:12:in `index'
+Started GET "/api/v1/scores?sinister[]=1&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:55:51 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 743)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/scores_controller.rb:14:in `index'
+Started GET "/api/v1/scores?sinister[]=0&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:56:27 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 761)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/scores_controller.rb:14:in `index'
+Started GET "/api/v1/scores?sinister[]=0&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:57:00 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["1000"], "pro"=>["false"]}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 751)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/api/v1/scores_controller.rb:19:in `index'
+Started GET "/api/v1/scores?sinister[]=0&years[]=1000&pro[]=false" for ::1 at 2021-01-04 12:57:22 +0100
+Processing by Api::V1::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["1000"], "pro"=>["false"]}
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 180)
+
+

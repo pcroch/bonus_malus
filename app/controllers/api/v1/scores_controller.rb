@@ -1,26 +1,19 @@
 class Api::V1::ScoresController < Api::V1::BaseController
 
-  # def initialize
-  #   @sinister = nil
-  #   @years = nil
-  #   @pro = nil
-  # end
 
   def index
+    @sinister = params[:sinister]
+    @years = params[:years]
+    @pro = params[:pro]
 
-     p "hello"
 
- p params[:years]
-
-       p "bye bye"
-
- unless @years.nil? || @sinister.nil? || @pro.nil?
-    @sinister = params[:sinister][0].to_i
-    @years = params[:years][0].to_i
-    @pro = params[:pro][0]
-    render json: { Bonus_Malus_Score: computation, status: :success }
+ if @years.nil? || @sinister.nil? || @pro.nil?
+    render json: { Bonus_Malus_Score: "Empty or missing argument in querry string", status: :error }
   else
-    render json: { Bonus_Malus_Score: "Missing number of argements or values in querry string", status: :error }
+    @sinister = @sinister[0].to_i
+    @years = @years[0].to_i
+    @pro = @pro[0]
+    render json: { Bonus_Malus_Score: computation, status: :success }
   end
 end
   private
@@ -57,3 +50,9 @@ end
 end
 
 
+
+#      p "hello"
+
+# p  @sinister.nil?
+
+#    p "bye bye"
