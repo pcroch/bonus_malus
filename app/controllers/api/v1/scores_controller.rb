@@ -5,31 +5,58 @@ class Api::V1::ScoresController < Api::V1::BaseController
     @sinister = params[:sinister]
     @years = params[:years]
     @pro = params[:pro]
+    no_string
+
+     p "hello"
+
+# p  @sinister.first.to_i
+
+   p "bye bye"
 
 
- if @years.nil? || @sinister.nil? || @pro.nil?
-    render json: { Bonus_Malus_Score: "Empty or missing argument in querry string", status: :error }
-  else
-    @sinister = @sinister[0].to_i
-    @years = @years[0].to_i
-    @pro = @pro[0]
-    render json: { Bonus_Malus_Score: computation, status: :success }
+
+
   end
-end
   private
-# def check_params
-#       if params[:years].nil? || params[:sinister].nil? || params[:pro].nil?
-#   response = { "error" => "bad nill" }
-#   render json: response, status: :bad_request
-# end
 
-#     if params[:years].blank? || params[:sinister].blank? || params[:pro].blank?
-#   response = { "error" => "bad client uuid" }
-#   render json: response, status: :bad_request
+  def no_string
+     if @years.nil? || @sinister.nil? || @pro.nil?
+      render_errors_missing_params
+    else
+no_value
+       # render json: { Bonus_Malus_Score: "computation_string", status: :success }
+    end
+  end
 
-# end
+  def no_value
 
-# end
+     if @years.first.empty? || @sinister.first.empty?
+      render_errors_missing_value
+    else
+      min_max_value
+      # render json: { Bonus_Malus_Score: "computation_value", status: :success }
+      # @sinister = @sinister.first.to_i
+      # @years = @years.first.to_i
+      # @pro = @pro.first
+      # render json: { Bonus_Malus_Score: computation, status: :success }
+    end
+  end
+
+  def min_max_value
+    if @sinister.first.to_i > 2
+     # render json: { Bonus_Malus_Score: "comutation min max", status: :success }
+      render_errors_min_max
+    else
+      @sinister = @sinister.first.to_i
+      @years = @years.first.to_i
+      @pro = @pro.first
+      render json: { Bonus_Malus_Score: computation, status: :success }
+      # min_max_value
+       # render json: { Bonus_Malus_Score: "computation_min_max", status: :success }
+
+    end
+  end
+
 
 
 
@@ -47,6 +74,11 @@ end
     return score > -2 ? score : -2
     p score
   end
+
+
+  def print_score
+
+  end
 end
 
 
@@ -56,3 +88,7 @@ end
 # p  @sinister.nil?
 
 #    p "bye bye"
+
+
+
+
