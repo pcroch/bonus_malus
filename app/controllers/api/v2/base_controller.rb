@@ -28,4 +28,8 @@ class Api::V2::BaseController < ActionController::API
   def render_errors_min_max
     render_errors([{ code: '4', message: 'Please contact the helpdesk if sinister greater than 2' }], :not_acceptable)
   end
+
+   def render_errors_boolean
+    render_errors([{ code: '5', message: 'Pro params should be 0 or 1' }], :not_acceptable)
+  end
 end

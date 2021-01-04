@@ -6,6 +6,17 @@ class Api::V2::ScoresController < Api::V2::BaseController
     no_string
   end
 
+
+
+# for debugging only
+     p "hello"
+
+p  @years
+
+   p "bye bye"
+
+
+
   private
 
   def no_string
@@ -19,7 +30,7 @@ class Api::V2::ScoresController < Api::V2::BaseController
   end
 
   def no_value
-    if @years.first.empty? || @sinister.first.empty?
+    if @years.first.empty? || @sinister.first.empty? || @pro.first.empty?
       render_errors_missing_value
     else
       min_max_value
@@ -32,20 +43,33 @@ class Api::V2::ScoresController < Api::V2::BaseController
     if @sinister.first.to_i > 2
       render_errors_min_max
     else
-      @sinister = @sinister.first.to_i
-      @years = @years.first.to_i
-      @pro = @pro.first
-      render json: { Bonus_Malus_Score: computation, status: :success }
+      boolean
+
       # for degugging only
       # render json: { Bonus_Malus_Score: "computation_min_max", status: :success }
 
     end
   end
 
+
+  def boolean
+    if @pro.first.to_i > 1
+      render_errors_boolean
+    else
+      @sinister = @sinister.first.to_i
+      @years = @years.first.to_i
+      @pro = @pro.first.to_i
+      render json: { Bonus_Malus_Score: computation, status: :success }
+      # for degugging only
+      # render json: { Bonus_Malus_Score: "computation_", status: :success }
+
+    end
+  end
+
   def professional
-    if @pro == 'true'
+    if @pro == 1
       3
-    elsif @pro == 'false'
+    elsif @pro == 0
       0
     end
   end
