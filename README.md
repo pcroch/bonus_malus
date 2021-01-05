@@ -21,6 +21,7 @@ curl http://localhost:3000/api/v2/scores\?sinister\[\]\=2\&years\[\]\=2\&pro\[\]
 ==> render: {"Bonus_Malus_Score":22,"status":"success"}
 
 Query String: sinister[]=id&years[]=id&pro[]=id
+
 For example: Query string: sinister[]=2&years[]=2&pro[]=1
 
 **A- HOW TO**
