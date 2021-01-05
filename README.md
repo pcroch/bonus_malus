@@ -3,8 +3,9 @@
 
 ## I. General description
 
-Upcoming ...
+This api can be used to compute the bonus-malus score for a car insurance. The bonus-malus depends on three factors to determine the score. First, the amount of driving years of the driver. It starts at 0 as it can't be negatif and never ends. Secondly, the amount of accidents at fault (0, 1 or 2) in the past 5 years. Note that if you had more than 2 accidents in the past 5 years, you must contact your insurance to compute your score. Third of all, the usage of the vehicule, can be private or professional. 
 
+The score is set with a minimum of -2: That is to say that no matter, the years of experience of the drivers, the number of sinister and the usage of the vehicule, the insurance score can't be below -2.  
 
 ## II. Technical description
 
