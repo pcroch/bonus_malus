@@ -54,16 +54,16 @@ You have three parameters:
      
   **Error code 3: Missing value(s)**
   
-   - At least one of the params has an empty value.
-   - For example: " sinister[]=&years[]=2&pro[]=1 " The params sinister has no value in the querry string as such render the error code 3
+    - At least one of the params has an empty value.
+    - For example: " sinister[]=&years[]=2&pro[]=1 " The params sinister has no value in the querry string as such render the error code 3
      
   **Error code 4: Sinister value greater than 2**
   
-   - The sinister params accept only value between 0 and 2. 
-  -  As the number of sinisters can't be negatif which makes sense. But if you had more than 2 sinisters in the last 5 years, you must contact your insurance for        special condition.
-   - For example: " sinister[]=3&years[]=2&pro[]=1 "
+    - The sinister params accept only value between 0 and 2. 
+    -  As the number of sinisters can't be negatif which makes sense. But if you had more than 2 sinisters in the last 5 years, you must contact your insurance for        special condition.
+    - For example: " sinister[]=3&years[]=2&pro[]=1 "
    
   **Error code 5: Pro params should be 0 or 1**
   
-   - The pro params is a binary param as such it only accepts 0 or 1. if you put any others value you will have an error message asking you to change that value.
-   - For example: " sinister[]=3&years[]=2&pro[]=2 " =+> the pro parmas has an incorrect value.
+    - The pro params is a binary param as such it only accepts 0 or 1. if you put any others value you will have an error message asking you to change that value.
+    - For example: " sinister[]=3&years[]=2&pro[]=2 " =+> the pro parmas has an incorrect value.
