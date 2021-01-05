@@ -13,6 +13,8 @@ The score is set with a minimum of -2: That is to say that no matter, the years 
 
 URL: http://localhost:3000/api/v2/scores?sinister[]=id&years[]=id&pro[]=id
 
+the api can only be used with the **get** method ! 
+
 **Example**
 
 curl http://localhost:3000/api/v2/scores\?sinister\[\]\=2\&years\[\]\=2\&pro\[\]\=1
