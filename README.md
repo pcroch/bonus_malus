@@ -27,13 +27,13 @@ For example: Query string: sinister[]=2&years[]=2&pro[]=1
 **A- HOW TO**
 
     You have three parameters:
-       *1- sinister:* 
+      **1- sinister:**
         - Amount of driving years
         - Integer between [0:2]
-      *2- years:* 
+      **2- years:**
         - Amount of driving years
         - Positif integer
-      *3- pro:* 
+      **3- pro:** 
         - Usage (private or professional)
         - Binary parameter. 0 means professional usage and 1 means private usage
 
