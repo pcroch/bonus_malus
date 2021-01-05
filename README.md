@@ -1,4 +1,12 @@
 # README
+# Api description: Bonus Malus score
+
+## I. General description
+
+Upcoming ...
+
+
+## II. Technical description
 
 **End-points**
 
