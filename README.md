@@ -27,15 +27,18 @@ For example: Query string: sinister[]=2&years[]=2&pro[]=1
 **A- HOW TO**
 
     You have three parameters:
-      **1- sinister:**
+      1 * sinister:
         - Amount of driving years
         - Integer between [0:2]
-      **2- years:**
+        - Used as such: sinister[]=id ==> id is the value
+      2 * years:
         - Amount of driving years
         - Positif integer
-      **3- pro:** 
+        - Used as such: years[]=id ==> id is the value
+      3 * pro:
         - Usage (private or professional)
         - Binary parameter. 0 means professional usage and 1 means private usage
+        - Used as such: pro[]=id ==> id is the value
 
 
  **B- Cross-origin resource sharing** 
