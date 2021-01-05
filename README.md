@@ -15,14 +15,21 @@ URL: http://localhost:3000/api/v2/scores?sinister[]=id&years[]=id&pro[]=id
 
 the api can only be used with the **get** method ! 
 
-**Example**
+**How to fetch**
 
-curl http://localhost:3000/api/v2/scores\?sinister\[\]\=2\&years\[\]\=2\&pro\[\]\=1
-==> render: {"Bonus_Malus_Score":22,"status":"success"}
+      1 * launch the rails server with the following command:
+      
+            rails s
 
-Query String: sinister[]=id&years[]=id&pro[]=id
+      2 * Execute the following command with the desire params: 
+      
+            curl http://localhost:3000/api/v2/scores\?sinister\[\]\=2\&years\[\]\=2\&pro\[\]\=1
+            
+            ==> render: {"Bonus_Malus_Score":22,"status":"success"}
 
-For example: Query string: sinister[]=2&years[]=2&pro[]=1
+            Query String: sinister[]=id&years[]=id&pro[]=id
+
+            For example: Query string: sinister[]=2&years[]=2&pro[]=1
 
 **A- HOW TO**
 
