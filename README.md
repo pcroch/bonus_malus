@@ -11,9 +11,8 @@ The score is set with a minimum of -2: That is to say that no matter, the years 
 
 **End-points**
 
-URL: http://localhost:3000/api/v2/scores?sinister[]=id&years[]=id&pro[]=id
-
-the api can only be used with the **get** method ! 
+      URL: http://localhost:3000/api/v2/scores?sinister[]=id&years[]=id&pro[]=id
+            The api can only be used with the **get** method ! 
 
 **How to fetch**
 
