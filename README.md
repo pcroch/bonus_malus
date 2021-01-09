@@ -16,8 +16,9 @@ The score is set with a minimum of -2: That is to say that no matter, the years 
 
 **How to fetch**
 
-      1 * launch the rails server with the following command:
-      
+      1 * launch and install the rails server with the following command:
+            yarn install && bundle install
+            rails db:migrate
             rails s
 
       2 * Execute the following command with the desire params: 
