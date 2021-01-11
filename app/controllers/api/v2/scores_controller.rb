@@ -7,6 +7,9 @@ class Api::V2::ScoresController < Api::V2::BaseController
     error_handeler
   end
 
+  # to do
+  # correct status respond instead of not success
+
   private
 
   def error_handeler

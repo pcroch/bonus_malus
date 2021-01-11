@@ -8344,3 +8344,15 @@ Processing by Api::V2::ScoresController#index as JSON
 Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 125)
 
 
+Started GET "/api/v2/scores?sinister[]=2&years[]=2&pro[]=1" for ::1 at 2021-01-05 11:45:59 +0100
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 181)
+
+
+Started GET "/api/v2/scores?sinister[]=2&years[]=2&pro[]=1" for ::1 at 2021-01-05 11:47:51 +0100
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 129)
+
+
