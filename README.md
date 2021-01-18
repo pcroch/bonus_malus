@@ -94,7 +94,7 @@ The score is set with a minimum of -2: That is to say that no matter, the years 
 **B- Description**
 
       We have 5 kind of testing.
-            0 - Testing the computation with specific numbers to cover of the aspect of it;
+            0 - Testing the computation with specific numbers to cover all of the aspect of it;
             1-  Testing the error code 1 with 4 cases when the params is missing;
             2-  Testing the error code 2 with 4 cases when the params is nit an integer;
             3-  Testing the error code 3 with 4 cases when the value of a params is missing;
