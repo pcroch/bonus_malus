@@ -7,7 +7,7 @@
 #   end
 # end
 require 'rails_helper'
-RSpec.describe 'Querry string: computation', type: :request do
+RSpec.describe 'Integration testing for Querry string: computation', type: :request do
   # Test suite for GET /articles
   describe 'General computation should return 22' do
     # make HTTP get request before each example
@@ -84,7 +84,7 @@ end
 
 # testing the errors codes 1
 
-RSpec.describe 'Error code 1: Missing params', type: :request do
+RSpec.describe 'Integration testing for Error code 1: Missing params', type: :request do
   # Test suite for GET /articles
 
   describe 'error code one: missing pro params' do
@@ -139,7 +139,7 @@ end
 
 # testing the errors codes 2
 
-RSpec.describe 'Error code 2: Number only', type: :request do
+RSpec.describe 'Integration testing for Error code 2: Number only', type: :request do
   # Test suite for GET /articles
 
   describe 'error code two: Not an integer for sinister params' do
@@ -192,7 +192,7 @@ RSpec.describe 'Error code 2: Number only', type: :request do
 end
     # testing the errors codes 3
 
-RSpec.describe 'Error code 3: Missing value(s)', type: :request do
+RSpec.describe 'Integration testing for Error code 3: Missing value(s)', type: :request do
   # Test suite for GET /articles
 
   describe 'Error code 3: Missing value(s) of sinister params' do
@@ -246,7 +246,7 @@ end
 
     # testing the errors codes 4
 
-RSpec.describe 'Error code 4: Sinister value greater than 2', type: :request do
+RSpec.describe 'Integration testing for Error code 4: Sinister value greater than 2', type: :request do
   # Test suite for GET /articles
   describe 'Error code 4: Sinister value greater than 2' do
     # make HTTP get request before each example
@@ -263,7 +263,7 @@ end
 
     # testing the errors codes 4
 
-RSpec.describe 'Error code 5: Pro params should be 0 or 1', type: :request do
+RSpec.describe 'Integration testing for Error code 5: Pro params should be 0 or 1', type: :request do
   # Test suite for GET /articles
   describe 'Error code 5: Pro params is equal to 2' do
     # make HTTP get request before each example
