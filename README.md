@@ -23,7 +23,7 @@ The score is set with a minimum of -2: That is to say that no matter, the years 
 
       2 * Execute the following command with the desire params: 
       
-            curl http://localhost:3000/api/v2/scores\?sinister\[\]\=2\&years\[\]\=2\&pro\[\]\=1
+            curl http://localhost:3000/api/v2/scores\?sinister\[]\=2\&years\[]\=2\&pro\[]\=1
             
             ==> render: {"Bonus_Malus_Score":22,"status":"success"}
 
