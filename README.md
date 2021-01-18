@@ -17,6 +17,8 @@ The score is set with a minimum of -2: That is to say that no matter, the years 
 **How to fetch**
 
       1 * launch and install the rails server with the following command:
+            git@github.com:pcroch/bonus_malus.git
+            cd bonus_malus 
             yarn install && bundle install
             rails db:create db:migrate
             rails s
@@ -81,3 +83,10 @@ The score is set with a minimum of -2: That is to say that no matter, the years 
   
     - The pro params is a binary param as such it only accepts 0 or 1. if you put any others value you will have an error message asking you to change that value.
     - For example: " sinister[]=3&years[]=2&pro[]=2 " =+> the pro parmas has an incorrect value.
+    
+## II. Testing description
+
+In progress :)
+
+execute the following command:
+bundle exec rspec
