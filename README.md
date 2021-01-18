@@ -86,7 +86,17 @@ The score is set with a minimum of -2: That is to say that no matter, the years 
     
 ## II. Testing description
 
-In progress :)
+**A- HOW TO**
 
-execute the following command:
-bundle exec rspec
+      Run: bundle exec rspec
+      
+ 
+**B- Description**
+
+      We have 5 kind of testing.
+            0 - Testing the computation with specific numbers to cover of the aspect of it;
+            1-  Testing the error code 1 with 4 cases when the params is missing;
+            2-  Testing the error code 2 with 4 cases when the params is nit an integer;
+            3-  Testing the error code 3 with 4 cases when the value of a params is missing;
+            4-  Testing the error code 4 with 1 case where the Sinister params is greater than two;
+            5-  Testing the error code 5 with 1 case where the Pro params is greater equal to two;
