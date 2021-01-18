@@ -22,7 +22,7 @@ RSpec.describe 'Score  API', type: :request do
   end
 end
 
-# testing the errors codes
+# testing the errors codes 1
 
 RSpec.describe 'Testing the errors code 1  API', type: :request do
   # Test suite for GET /articles
@@ -74,4 +74,60 @@ RSpec.describe 'Testing the errors code 1  API', type: :request do
       expect(response).to have_http_status(406)
     end
   end
+end
+
+
+# testing the errors codes 1
+
+RSpec.describe 'Testing the errors code 2  API', type: :request do
+  # Test suite for GET /articles
+
+  describe 'error code two: Not an integer for sinister params' do
+    # make HTTP get request before each example
+    before { get 'http://localhost:3000/api/v2/scores/?sinister[]=Hello_World&years[]=1&pro[]=1' }
+
+    it 'Return validation for error code 2: The querry string supports only integer' do
+      expect(response.body).to match("{\"errors\":[{\"code\":\"2\",\"message\":\"Number only.\"}]}")
+    end
+    it 'returns status code 406: Not acceptable' do
+      expect(response).to have_http_status(406)
+    end
+  end
+
+  describe 'error code two: Not an integer for years params' do
+    # make HTTP get request before each example
+    before { get 'http://localhost:3000/api/v2/scores/?sinister[]=1&years[]=Hello_World&pro[]=1' }
+
+    it 'Return validation for error code 2: The querry string supports only integer' do
+      expect(response.body).to match("{\"errors\":[{\"code\":\"2\",\"message\":\"Number only.\"}]}")
+    end
+    it 'returns status code 406: Not acceptable' do
+      expect(response).to have_http_status(406)
+    end
+  end
+
+  describe 'error code two: Not an integer for pro params' do
+    # make HTTP get request before each example
+    before { get 'http://localhost:3000/api/v2/scores/?sinister[]=1&years[]=1&pro[]=Hello_World' }
+
+    it 'Return validation for error code 2: The querry string supports only integer' do
+      expect(response.body).to match("{\"errors\":[{\"code\":\"2\",\"message\":\"Number only.\"}]}")
+    end
+    it 'returns status code 406: Not acceptable' do
+      expect(response).to have_http_status(406)
+    end
+  end
+
+  describe 'error code two: Not an integer for all params' do
+    # make HTTP get request before each example
+    before { get 'http://localhost:3000/api/v2/scores/?sinister[]=Hello_World&years[]=Hello_World&pro[]=Hello_World' }
+
+    it 'Return validation for error code 2: The querry string supports only integer' do
+      expect(response.body).to match("{\"errors\":[{\"code\":\"2\",\"message\":\"Number only.\"}]}")
+    end
+    it 'returns status code 406: Not acceptable' do
+      expect(response).to have_http_status(406)
+    end
+  end
+
 end
