@@ -16,6 +16,15 @@ Rails.application.routes.draw do
       get '*path', to: 'base#render_not_found'
     end
   end
-end
 
+
+  #v3 version
+  namespace :api, defaults: { format: :json } do
+    namespace :v3 do
+      resources :scores, only: [:index]
+      get '*path', to: 'base#render_not_found'
+    end
+  end
+
+end
 # why not a collection
