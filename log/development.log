@@ -8643,3 +8643,1367 @@ Processing by Api::V3::ScoresController#index as JSON
 Completed 406 Not Acceptable in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 192)
 
 
+Started GET "/api/v3/scores" for ::1 at 2021-01-19 13:27:16 +0000
+Processing by Api::V3::ScoresController#index as JSON
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 198)
+
+
+Started GET "/api/v3/scores" for ::1 at 2021-01-19 14:04:37 +0000
+Processing by Api::V3::ScoresController#index as JSON
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1895)
+
+
+  
+NameError (uninitialized constant Api::V3::ScoresController::BaseController
+Did you mean?  Api::V3::BaseController):
+  
+app/controllers/api/v3/scores_controller.rb:7:in `index'
+Started GET "/api/v3/scores" for ::1 at 2021-01-19 14:05:07 +0000
+Processing by Api::V3::ScoresController#index as JSON
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1866)
+
+
+  
+NameError (uninitialized constant Api::V3::ScoresController::BaseController
+Did you mean?  Api::V3::BaseController):
+  
+app/controllers/api/v3/scores_controller.rb:7:in `index'
+Started GET "/api/v3/scores" for ::1 at 2021-01-19 14:05:41 +0000
+Processing by Api::V3::ScoresController#index as JSON
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 586)
+
+
+Started GET "/api/v3/scores" for ::1 at 2021-01-19 14:05:42 +0000
+Processing by Api::V3::ScoresController#index as JSON
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 111)
+
+
+Started GET "/api/v3/scores" for ::1 at 2021-01-19 14:05:43 +0000
+Processing by Api::V3::ScoresController#index as JSON
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 109)
+
+
+Started GET "/api/v3/scores" for ::1 at 2021-01-19 14:06:12 +0000
+Processing by Api::V3::ScoresController#index as JSON
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 115)
+
+
+Started GET "/api/v3/scores" for ::1 at 2021-01-19 14:06:12 +0000
+Processing by Api::V3::ScoresController#index as JSON
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 109)
+
+
+Started GET "/api/v3/scores" for ::1 at 2021-01-19 14:06:51 +0000
+Processing by Api::V3::ScoresController#index as JSON
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1858)
+
+
+  
+NameError (uninitialized constant Api::V3::ScoresController::BaseController
+Did you mean?  Api::V3::BaseController):
+  
+app/controllers/api/v3/scores_controller.rb:7:in `index'
+Started GET "/api/v3/scores" for ::1 at 2021-01-19 14:07:09 +0000
+Processing by Api::V3::ScoresController#index as JSON
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 316)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v3/scores_controller.rb:7:in `new'
+app/controllers/api/v3/scores_controller.rb:7:in `index'
+Started GET "/api/v3/scores" for ::1 at 2021-01-19 14:07:09 +0000
+Processing by Api::V3::ScoresController#index as JSON
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 356)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v3/scores_controller.rb:7:in `new'
+app/controllers/api/v3/scores_controller.rb:7:in `index'
+Started GET "/api/v3/scores" for ::1 at 2021-01-19 14:07:10 +0000
+Processing by Api::V3::ScoresController#index as JSON
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 356)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v3/scores_controller.rb:7:in `new'
+app/controllers/api/v3/scores_controller.rb:7:in `index'
+Started GET "/api/v3/scores" for ::1 at 2021-01-19 14:07:21 +0000
+Processing by Api::V3::ScoresController#index as JSON
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+Started GET "/api/v3/scores" for ::1 at 2021-01-19 14:07:23 +0000
+Processing by Api::V3::ScoresController#index as JSON
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 111)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 14:08:22 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 118)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 14:08:33 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 124)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 14:09:36 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 124)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 14:09:44 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 14:09:45 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 115)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 14:10:07 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 127)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 14:10:42 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 325)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v3/scores_controller.rb:7:in `initialize'
+app/controllers/api/v3/scores_controller.rb:7:in `new'
+app/controllers/api/v3/scores_controller.rb:7:in `index'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 14:12:24 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 323)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v3/scores_controller.rb:7:in `initialize'
+app/controllers/api/v3/scores_controller.rb:7:in `new'
+app/controllers/api/v3/scores_controller.rb:7:in `index'
+Started GET "/api/v3/scores" for ::1 at 2021-01-19 14:12:45 +0000
+Processing by Api::V3::ScoresController#index as JSON
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 318)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v3/scores_controller.rb:7:in `initialize'
+app/controllers/api/v3/scores_controller.rb:7:in `new'
+app/controllers/api/v3/scores_controller.rb:7:in `index'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 14:14:42 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 323)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v3/scores_controller.rb:7:in `initialize'
+app/controllers/api/v3/scores_controller.rb:7:in `new'
+app/controllers/api/v3/scores_controller.rb:7:in `index'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 14:16:07 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 81059ms (ActiveRecord: 0.0ms | Allocations: 232489)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0)):
+  
+app/controllers/api/v3/scores_controller.rb:10:in `initialize'
+app/controllers/api/v3/scores_controller.rb:10:in `new'
+app/controllers/api/v3/scores_controller.rb:10:in `index'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 14:17:38 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 204195ms (ActiveRecord: 0.0ms | Allocations: 385654)
+
+
+  
+ArgumentError (wrong number of arguments (given 3, expected 0..1)):
+  
+app/controllers/api/v3/scores_controller.rb:16:in `initialize'
+app/controllers/api/v3/scores_controller.rb:10:in `new'
+app/controllers/api/v3/scores_controller.rb:10:in `index'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 14:21:11 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 268836ms (ActiveRecord: 0.0ms | Allocations: 854433)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 14:25:44 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 795)
+
+
+  
+NoMethodError (undefined method `pr=' for #<Api::V3::ScoresController::Computation:0x00007f42a8acf160>
+Did you mean?  pro=
+               pry
+               pro):
+  
+app/controllers/api/v3/scores_controller.rb:13:in `index'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 14:26:19 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Started GET "/api/v3/scores" for ::1 at 2021-01-19 14:38:31 +0000
+Processing by Api::V3::ScoresController#index as JSON
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 577166ms (ActiveRecord: 0.0ms | Allocations: 2489723)
+
+
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1314420ms (ActiveRecord: 0.0ms | Allocations: 4405652)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 14:48:20 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 612)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 14:48:31 +0000
+  
+TypeError (superclass mismatch for class Computation):
+  
+app/controllers/api/v3/scores_controller.rb:27:in `<main>'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 14:48:50 +0000
+  
+NameError (uninitialized constant ScoresController):
+  
+app/controllers/api/v3/scores_controller.rb:27:in `<main>'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 14:49:58 +0000
+  
+TypeError (superclass mismatch for class Computation):
+  
+app/controllers/api/v3/scores_controller.rb:4:in `<main>'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 14:51:42 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 209814ms (ActiveRecord: 0.0ms | Allocations: 415456)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 14:55:18 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 508522ms (ActiveRecord: 0.0ms | Allocations: 1343642)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 15:03:52 +0000
+  
+SyntaxError (/home/pierre/code/pcroch/bonus_malus/app/controllers/api/v3/base_controller.rb:77: syntax error, unexpected end, expecting end-of-input):
+  
+app/controllers/api/v3/base_controller.rb:77: syntax error, unexpected end, expecting end-of-input
+app/controllers/api/v3/base_controller.rb:77: syntax error, unexpected end, expecting end-of-input
+app/controllers/api/v3/base_controller.rb:77: syntax error, unexpected end, expecting end-of-input
+app/controllers/api/v3/scores_controller.rb:4:in `<main>'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 15:04:20 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 298206ms (ActiveRecord: 0.0ms | Allocations: 1131691)
+
+
+  
+NameError (uninitialized constant Api::V3::ScoresController::Computation):
+  
+app/controllers/api/v3/scores_controller.rb:10:in `index'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 15:09:23 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 660326ms (ActiveRecord: 0.0ms | Allocations: 2542743)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 15:20:30 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 402864ms (ActiveRecord: 0.0ms | Allocations: 676115)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 15:27:16 +0000
+  
+NoMethodError (undefined method `validates_numericality_of' for Api::V3::BaseController:Class):
+  
+app/controllers/api/v3/base_controller.rb:5:in `<class:BaseController>'
+app/controllers/api/v3/base_controller.rb:1:in `<main>'
+app/controllers/api/v3/scores_controller.rb:4:in `<main>'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 15:28:12 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 46918ms (ActiveRecord: 0.0ms | Allocations: 172432)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 15:29:04 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 83475ms (ActiveRecord: 0.0ms | Allocations: 230853)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 15:30:34 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 97849ms (ActiveRecord: 0.0ms | Allocations: 680560)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 15:32:18 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1813727ms (ActiveRecord: 0.0ms | Allocations: 3290296)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:02:47 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 612)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:03:13 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 124)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:03:44 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 610)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:06:22 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 128)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:07:48 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 614)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:09:13 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 614)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:11:10 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1165)
+
+
+  
+NoMethodError (undefined method `sinister=' for #<Api::V3::ScoresController:0x00007fe29cafab78>):
+  
+app/controllers/api/v3/scores_controller.rb:12:in `index'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:11:59 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1136)
+
+
+  
+NoMethodError (undefined method `sinister=' for #<Api::V3::ScoresController:0x00007fe29414a1d0>):
+  
+app/controllers/api/v3/scores_controller.rb:12:in `index'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:12:09 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1165)
+
+
+  
+NoMethodError (undefined method `sinister=' for #<Api::V3::ScoresController:0x00007f4a10af08c8>):
+  
+app/controllers/api/v3/scores_controller.rb:12:in `index'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:13:22 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1165)
+
+
+  
+NoMethodError (undefined method `sinister=' for #<Api::V3::ScoresController:0x00007f4980b50678>):
+  
+app/controllers/api/v3/scores_controller.rb:12:in `index'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:15:41 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1165)
+
+
+  
+NoMethodError (undefined method `sinister=' for #<Api::V3::ScoresController:0x00007fb580ada880>):
+  
+app/controllers/api/v3/scores_controller.rb:12:in `index'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:17:41 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 595)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:19:24 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 128)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:20:12 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 612)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:23:43 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 612)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:23:59 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 46227ms (ActiveRecord: 0.0ms | Allocations: 180234)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:24:51 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1463019ms (ActiveRecord: 0.0ms | Allocations: 2109743)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:49:26 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 313364ms (ActiveRecord: 0.0ms | Allocations: 1361229)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:54:51 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 32451ms (ActiveRecord: 0.0ms | Allocations: 139142)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:55:29 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 41006ms (ActiveRecord: 0.0ms | Allocations: 425404)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 16:56:16 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 439355ms (ActiveRecord: 0.0ms | Allocations: 1139579)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 17:03:40 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 355296ms (ActiveRecord: 0.0ms | Allocations: 894740)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 17:09:48 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 35455ms (ActiveRecord: 0.0ms | Allocations: 160051)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 17:10:28 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 83679ms (ActiveRecord: 0.0ms | Allocations: 356092)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 17:12:00 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 21729ms (ActiveRecord: 0.0ms | Allocations: 225802)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 17:12:26 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 75538ms (ActiveRecord: 0.0ms | Allocations: 333552)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 17:13:48 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 2654591ms (ActiveRecord: 0.0ms | Allocations: 4458185)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:03:01 +0000
+  
+SyntaxError (/home/pierre/code/pcroch/bonus_malus/app/controllers/api/v3/base_controller.rb:86: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/api/v3/base_controller.rb:86: syntax error, unexpected end-of-input, expecting end
+app/controllers/api/v3/base_controller.rb:86: syntax error, unexpected end-of-input, expecting end
+app/controllers/api/v3/base_controller.rb:86: syntax error, unexpected end-of-input, expecting end
+app/controllers/api/v3/scores_controller.rb:4:in `<main>'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:03:13 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 611)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:03:36 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1169)
+
+
+  
+Module::DelegationError (ActionController::Metal#media_type delegated to @_response.media_type, but @_response is nil: #<Api::V3::BaseController:0x00007f01501272f0 @sinister=1, @years=1, @pro=1, @_config={}, @_db_runtime=0>):
+  
+app/controllers/api/v3/base_controller.rb:16:in `error_handeler'
+app/controllers/api/v3/scores_controller.rb:11:in `index'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:04:15 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1136)
+
+
+  
+Module::DelegationError (ActionController::Metal#media_type delegated to @_response.media_type, but @_response is nil: #<Api::V3::BaseController:0x00007f0148d3e2a8 @sinister=1, @years=["1"], @pro=["1"], @_config={}, @_db_runtime=0>):
+  
+app/controllers/api/v3/base_controller.rb:16:in `error_handeler'
+app/controllers/api/v3/scores_controller.rb:11:in `index'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:04:25 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1137)
+
+
+  
+Module::DelegationError (ActionController::Metal#media_type delegated to @_response.media_type, but @_response is nil: #<Api::V3::BaseController:0x00007f0148ab0450 @sinister=["1"], @years=["1"], @pro=["1"], @_config={}, @_db_runtime=0>):
+  
+app/controllers/api/v3/base_controller.rb:16:in `error_handeler'
+app/controllers/api/v3/scores_controller.rb:11:in `index'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:04:29 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1134)
+
+
+  
+Module::DelegationError (ActionController::Metal#media_type delegated to @_response.media_type, but @_response is nil: #<Api::V3::BaseController:0x00007f0150387ea0 @sinister=["1"], @years=["1"], @pro=["1"], @_config={}, @_db_runtime=0>):
+  
+app/controllers/api/v3/base_controller.rb:16:in `error_handeler'
+app/controllers/api/v3/scores_controller.rb:11:in `index'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:04:35 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 128)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:04:45 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 36314ms (ActiveRecord: 0.0ms | Allocations: 182110)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:05:27 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:05:32 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:06:08 +0000
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 55862ms (ActiveRecord: 0.0ms | Allocations: 567337)
+
+
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 83510ms (ActiveRecord: 0.0ms | Allocations: 1274864)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:06:50 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 7090ms (ActiveRecord: 0.0ms | Allocations: 8183)
+
+
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 2239ms (ActiveRecord: 0.0ms | Allocations: 7672)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:07:05 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 42038ms (ActiveRecord: 0.0ms | Allocations: 241162)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:07:52 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 32928ms (ActiveRecord: 0.0ms | Allocations: 325246)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:08:30 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+DEPRECATION WARNING: SourceAnnotationExtractor is deprecated! Use Rails::SourceAnnotationExtractor instead. (called from index at /home/pierre/code/pcroch/bonus_malus/app/controllers/api/v3/scores_controller.rb:13)
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 889204ms (ActiveRecord: 0.0ms | Allocations: 1837000)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:23:25 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 74781ms (ActiveRecord: 0.0ms | Allocations: 317998)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:24:46 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 12372ms (ActiveRecord: 0.0ms | Allocations: 80797)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:25:11 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 612)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:25:45 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1190)
+
+
+  
+Module::DelegationError (ActionController::Metal#media_type delegated to @_response.media_type, but @_response is nil: #<Api::V3::BaseController:0x00007f9418ab3890 @sinister=1, @years=1, @pro=1, @_config={}, @_db_runtime=0>):
+  
+app/controllers/api/v3/base_controller.rb:18:in `error_handeler'
+app/controllers/api/v3/scores_controller.rb:11:in `index'
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:27:26 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 594)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:36:39 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 570)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:36:39 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:37:11 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 565)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:37:47 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 123)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:37:48 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:37:53 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 613)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:40:01 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 563)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:40:10 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 613)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:41:09 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 613)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:41:30 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 563)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:41:31 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:41:37 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 613)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:42:05 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 563)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:42:10 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 613)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:49:08 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 567)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:49:20 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 613)
+
+
+Started GET "/api/v3/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-19 18:50:22 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 566)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 18:50:33 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 18:55:02 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 562)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 18:55:03 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 116)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 18:55:03 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 116)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 18:55:04 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 120)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 18:57:10 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1190)
+
+
+  
+NoMethodError (undefined method `get' for #<Api::V3::BaseController:0x00007f9928458080>
+Did you mean?  gem):
+  
+app/controllers/api/v3/scores_controller.rb:12:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 18:57:52 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1672)
+
+
+  
+NameError (undefined local variable or method `myapikey' for #<Api::V3::BaseController:0x00007f990000ba90>):
+  
+app/controllers/api/v3/base_controller.rb:13:in `get'
+app/controllers/api/v3/scores_controller.rb:12:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 18:58:20 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 324)
+
+
+  
+ArgumentError (wrong number of arguments (given 0, expected 1..2)):
+  
+app/controllers/api/v3/base_controller.rb:13:in `get'
+app/controllers/api/v3/scores_controller.rb:12:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:00:31 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 1824)
+
+
+  
+NameError (undefined local variable or method `response_body_as_string' for #<Api::V3::BaseController:0x00007f990c016e98>
+Did you mean?  response_body):
+  
+app/controllers/api/v3/base_controller.rb:13:in `get'
+app/controllers/api/v3/scores_controller.rb:12:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:00:45 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1670)
+
+
+  
+NameError (undefined local variable or method `attributes' for #<Api::V3::BaseController:0x00007f9928443c20>):
+  
+app/controllers/api/v3/base_controller.rb:13:in `get'
+app/controllers/api/v3/scores_controller.rb:12:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:00:59 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 338)
+
+
+  
+TypeError (no implicit conversion of Integer into String):
+  
+app/controllers/api/v3/base_controller.rb:13:in `get'
+app/controllers/api/v3/scores_controller.rb:12:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:01:16 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 574)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:02:02 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 335)
+
+
+  
+TypeError (no implicit conversion of Api::V3::BaseController into String):
+  
+app/controllers/api/v3/scores_controller.rb:12:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:02:14 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 333)
+
+
+  
+TypeError (no implicit conversion of Array into String):
+  
+app/controllers/api/v3/scores_controller.rb:12:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:02:22 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 130)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:02:40 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 564)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:07:25 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 564)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:07:33 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 711)
+
+
+  
+NoMethodError (undefined method `error_handeler' for nil:NilClass):
+  
+app/controllers/api/v3/scores_controller.rb:11:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:07:55 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 711)
+
+
+  
+NoMethodError (undefined method `error_handeler' for nil:NilClass):
+  
+app/controllers/api/v3/scores_controller.rb:11:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:07:57 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 749)
+
+
+  
+NoMethodError (undefined method `error_handeler' for nil:NilClass):
+  
+app/controllers/api/v3/scores_controller.rb:11:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:08:06 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 126)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:08:11 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1140)
+
+
+  
+Module::DelegationError (ActionController::Metal#media_type delegated to @_response.media_type, but @_response is nil: #<Api::V3::BaseController:0x000055da2b287188 @sinister=2, @years=2, @pro=2, @_config={}, @_db_runtime=0>):
+  
+app/controllers/api/v3/base_controller.rb:20:in `error_handeler'
+app/controllers/api/v3/scores_controller.rb:11:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:14:37 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1174)
+
+
+  
+Module::DelegationError (ActionController::Metal#media_type delegated to @_response.media_type, but @_response is nil: #<Api::V3::BaseController:0x00007f3d10aea408 @sinister=2, @years=2, @pro=2, @_config={}, @_db_runtime=0>):
+  
+app/controllers/api/v3/base_controller.rb:20:in `error_handeler'
+app/controllers/api/v3/scores_controller.rb:11:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:14:46 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 594)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:15:10 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 575)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:15:15 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 559)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:15:26 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 559)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:15:27 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:15:27 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 121)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:15:28 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 117)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:15:40 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 559)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:15:40 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 0ms (ActiveRecord: 0.0ms | Allocations: 117)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:16:05 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+No template found for Api::V3::ScoresController#index, rendering head :no_content
+Completed 204 No Content in 1ms (ActiveRecord: 0.0ms | Allocations: 565)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:16:17 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 124)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:16:34 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 158)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:16:59 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 183)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:17:07 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 159)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:17:19 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 113)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:17:29 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 64308ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 569815)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/api/v3/scores_controller.rb:15:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:18:39 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 200 OK in 39772ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 267158)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:19:24 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 200 OK in 28032ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 198114)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:19:58 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 200 OK in 32101ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 142777)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:20:34 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 200 OK in 23434ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 110619)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:21:02 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:21:23 +0000
+DEPRECATION WARNING: SourceAnnotationExtractor is deprecated! Use Rails::SourceAnnotationExtractor instead. (called from index at /home/pierre/code/pcroch/bonus_malus/app/controllers/api/v3/scores_controller.rb:15)
+Completed 200 OK in 132426ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1040122)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:23:15 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 200 OK in 2025ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 8030)
+
+
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 200 OK in 1685ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 8030)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:23:22 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:24:49 +0000
+Completed 200 OK in 89216ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 559256)
+
+
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 333)
+
+
+  
+TypeError (no implicit conversion of Array into Integer):
+  
+app/controllers/api/v3/base_controller.rb:54:in `computation'
+app/controllers/api/v3/scores_controller.rb:11:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:24:59 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 350)
+
+
+  
+TypeError (no implicit conversion of Array into Integer):
+  
+app/controllers/api/v3/base_controller.rb:54:in `computation'
+app/controllers/api/v3/scores_controller.rb:11:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:25:05 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 370)
+
+
+  
+TypeError (no implicit conversion of Array into Integer):
+  
+app/controllers/api/v3/base_controller.rb:54:in `computation'
+app/controllers/api/v3/scores_controller.rb:11:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:25:31 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 350)
+
+
+  
+TypeError (no implicit conversion of Array into Integer):
+  
+app/controllers/api/v3/base_controller.rb:54:in `computation'
+app/controllers/api/v3/scores_controller.rb:11:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:26:13 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 330208ms (ActiveRecord: 0.0ms | Allocations: 816687)
+
+
+  
+TypeError (no implicit conversion of Array into Integer):
+  
+app/controllers/api/v3/base_controller.rb:56:in `computation'
+app/controllers/api/v3/scores_controller.rb:11:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:31:48 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 164)
+
+
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:32:16 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 331)
+
+
+  
+TypeError (no implicit conversion from nil to integer):
+  
+app/controllers/api/v3/base_controller.rb:56:in `computation'
+app/controllers/api/v3/scores_controller.rb:15:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:32:45 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 327)
+
+
+  
+TypeError (no implicit conversion from nil to integer):
+  
+app/controllers/api/v3/base_controller.rb:56:in `computation'
+app/controllers/api/v3/scores_controller.rb:15:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:35:11 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 327)
+
+
+  
+TypeError (no implicit conversion from nil to integer):
+  
+app/controllers/api/v3/base_controller.rb:56:in `computation'
+app/controllers/api/v3/scores_controller.rb:15:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:35:30 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 349)
+
+
+  
+TypeError (no implicit conversion from nil to integer):
+  
+app/controllers/api/v3/base_controller.rb:57:in `computation'
+app/controllers/api/v3/scores_controller.rb:15:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:35:47 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 46327ms (ActiveRecord: 0.0ms | Allocations: 386552)
+
+
+  
+TypeError (no implicit conversion from nil to integer):
+  
+app/controllers/api/v3/base_controller.rb:58:in `computation'
+app/controllers/api/v3/scores_controller.rb:15:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:36:38 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 137272ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 306978)
+
+
+  
+TypeError (no implicit conversion from nil to integer):
+  
+app/controllers/api/v3/base_controller.rb:58:in `computation'
+app/controllers/api/v3/scores_controller.rb:15:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:38:59 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 101057ms (ActiveRecord: 0.0ms | Allocations: 371017)
+
+
+  
+TypeError (no implicit conversion from nil to integer):
+  
+app/controllers/api/v3/base_controller.rb:58:in `computation'
+app/controllers/api/v3/scores_controller.rb:15:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:40:45 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 18360ms (ActiveRecord: 0.0ms | Allocations: 185466)
+
+
+  
+TypeError (no implicit conversion from nil to integer):
+  
+app/controllers/api/v3/base_controller.rb:58:in `computation'
+app/controllers/api/v3/scores_controller.rb:15:in `index'
+Started GET "/api/v3/scores/?sinister[]=2&years[]=2&pro[]=2" for ::1 at 2021-01-19 19:41:09 +0000
+Processing by Api::V3::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["2"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 163)
+
+
