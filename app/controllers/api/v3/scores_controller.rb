@@ -1,5 +1,4 @@
-# test.rb
-require 'pry'
+
 
 class Api::V3::ScoresController < Api::V3::BaseController
   def index
@@ -9,8 +8,6 @@ class Api::V3::ScoresController < Api::V3::BaseController
 
     newa = Api::V3::BaseController.new({:sinister=>@sin,  :years=>@yrs , :pro=>@pr})
     newa.error_handeler
-
- # binding.pry
 
  render json: { Bonus_Malus_Score: $aa}
   end

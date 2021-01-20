@@ -1,5 +1,5 @@
 
-# require 'pry'
+
 class Api::V2::ScoresController < Api::V2::BaseController
   def index
     @sinister = params[:sinister]
@@ -46,7 +46,7 @@ private
     score = bonus_array[@sinister] + professional - @years
     score > -2 ? score : -2
   end
-  # binding.pry
+
 end
 
 # for debugging only
