@@ -10007,3 +10007,17 @@ Processing by Api::V3::ScoresController#index as JSON
 Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 163)
 
 
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-20 11:31:42 +0000
+  
+NoMethodError (undefined method `reauire' for main:Object
+Did you mean?  require):
+  
+app/controllers/api/v2/scores_controller.rb:2:in `<main>'
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-20 11:31:49 +0000
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-20 12:27:08 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 172)
+
+
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-20 12:45:08 +0000

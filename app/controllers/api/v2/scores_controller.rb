@@ -1,3 +1,5 @@
+
+# require 'pry'
 class Api::V2::ScoresController < Api::V2::BaseController
   def index
     @sinister = params[:sinister]
@@ -10,7 +12,7 @@ class Api::V2::ScoresController < Api::V2::BaseController
   # to do
   # correct status respond instead of not success
 
-  private
+private
 
   def error_handeler
     if @years.nil? || @sinister.nil? || @pro.nil?
@@ -44,6 +46,7 @@ class Api::V2::ScoresController < Api::V2::BaseController
     score = bonus_array[@sinister] + professional - @years
     score > -2 ? score : -2
   end
+  # binding.pry
 end
 
 # for debugging only
@@ -59,3 +62,4 @@ end
 
 # for debugging only
   # render json: { Bonus_Malus_Score: "computation_string", status: :success }
+
