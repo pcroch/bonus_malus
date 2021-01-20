@@ -1,7 +1,7 @@
-# class Api::V1::Score < ApplicationRecord
+class Api::V1::Score < ApplicationRecord
 # validate :years, presence: true
 
-# end
+end
 
 
 
