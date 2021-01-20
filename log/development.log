@@ -10021,3 +10021,43 @@ Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 172)
 
 
 Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-20 12:45:08 +0000
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-20 16:19:47 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5193626712482475540)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(5193626712482475540)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-20 16:20:15 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-20 16:20:16 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 126)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(5193626712482475540)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(5193626712482475540)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-20 16:20:43 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 177)
+
+
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-20 16:20:44 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 126)
+
+
