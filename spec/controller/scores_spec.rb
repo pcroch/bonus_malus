@@ -1,12 +1,8 @@
-# require 'spec_helper'
-# RSpec.describe 'Post' do           #
-#   context 'before publication' do  # (almost) plain English
-#     it 'cannot have comments' do   #
-#       expect { Post.create.comments.create! }.to raise_error(ActiveRecord::RecordInvalid)  # test code
-#     end
-#   end
-# end
+
 require 'rails_helper'
+require 'spec_helper'
+
+### Integration testing
 RSpec.describe 'Integration testing for Querry string: computation', type: :request do
   # Test suite for GET /articles
   describe 'General computation should return 22' do
@@ -276,7 +272,72 @@ RSpec.describe 'Integration testing for Error code 5: Pro params should be 0 or 
       expect(response).to have_http_status(406)
     end
   end
+end
 
+### Integration testing only for v2 version
 
+# testing querry string
+RSpec.describe 'Uuit Testing the key presence and correct value for each key in the querry string', type: :request do
+  # Test suite for GET /articles
+  describe 'Testing the sinister key' do
+    # make HTTP get request before each example
+    before { get 'http://localhost:3000/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1' }
 
+    it "does it include the sinister key" do
+      expect(request.params[:sinister]).to be_truthy
+    end
+    it "sinister key has correct value in request" do
+      expect(request.params[:sinister]).to eq ["2"]
+    end
+  end
+
+  describe 'Testing the years key' do
+    # make HTTP get request before each example
+    before { get 'http://localhost:3000/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1' }
+
+    it "does it include the years key?" do
+      expect(request.params[:years]).to be_truthy
+    end
+    it "years key has correct value in request" do
+      expect(request.params[:years]).to eq ["2"]
+    end
+  end
+
+  describe 'includes the pro key"' do
+    # make HTTP get request before each example
+    before { get 'http://localhost:3000/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1' }
+
+    it "does it include the pro key?" do
+      expect(request.params[:pro]).to be_truthy
+    end
+    it "pro key has correct value in request" do
+      expect(request.params[:pro]).to eq ["1"]
+    end
+  end
+end
+
+# testing privacy of the  methods
+
+RSpec.describe 'Unit Testing for the private methods' do
+  # Test suite for GET /articles
+  describe 'Testing error handeler method' do
+    it "should raise an error" do
+      testing_object = Api::V2::ScoresController.new
+      expect { testing_object.error_handeler }.to raise_error(NoMethodError, /private/)
+    end
+  end
+
+  describe 'Testing professional method' do
+    it "should raise an error" do
+      testing_object = Api::V2::ScoresController.new
+      expect { testing_object.professional }.to raise_error(NoMethodError, /private/)
+    end
+  end
+
+  describe 'Testing computation method' do
+    it "should raise an error" do
+      testing_object = Api::V2::ScoresController.new
+      expect { testing_object.computation }.to raise_error(NoMethodError, /private/)
+    end
+  end
 end
