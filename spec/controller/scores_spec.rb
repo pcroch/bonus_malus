@@ -277,7 +277,7 @@ end
 ### Integration testing only for v2 version
 
 # testing querry string
-RSpec.describe 'Uuit Testing the key presence and correct value for each key in the querry string', type: :request do
+RSpec.describe 'Uit Testing the key presence and correct value for each key in the querry string', type: :request do
   # Test suite for GET /articles
   describe 'Testing the sinister key' do
     # make HTTP get request before each example
