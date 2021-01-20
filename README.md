@@ -1,7 +1,7 @@
 # README
 # Api description: Bonus Malus score
 
-## I. General description
+## I. General description 
 
 This api can be used to compute the bonus-malus score for a car insurance. The bonus-malus depends on three factors to determine the score. First, the amount of driving years of the driver. It starts at 0 as it can't be negatif and never ends. Secondly, the amount of accidents at fault (0, 1 or 2) in the past 5 years. Note that if you had more than 2 accidents in the past 5 years, you must contact your insurance to compute your score. Third of all, the usage of the vehicule, can be private or professional. 
 
@@ -10,8 +10,15 @@ The score is set with a minimum of -2: That is to say that no matter, the years 
 ## II. Technical description
 
 **End-points**
+        
+      Version 2 is actually the production one. A version 3 is one production right now.
 
-      URL: http://localhost:3000/api/v2/scores?sinister[]=id&years[]=id&pro[]=id
+**End-points**
+     
+     In production: https://bomus-malus.herokuapp.com/api/v2/scores?sinister[]=id&years[]=id&pro[]=id
+     NB: For now, I will use the local url in the documentation and not the production one. (I will update it later)
+
+     local URL: http://localhost:3000/api/v2/scores?sinister[]=id&years[]=id&pro[]=id
             The api can only be used with the **get** method ! 
 
 **How to fetch**
@@ -101,6 +108,9 @@ The score is set with a minimum of -2: That is to say that no matter, the years 
             4-  Testing the error code 4 with 1 case where the Sinister params is greater than two;
             5-  Testing the error code 5 with 1 case where the Pro params is greater equal to two;
             
- **B- Unit Testing Description**
+ **C- Unit Testing Description**
  
- Working in progress ;-)
+      We have 2 kind of testing.
+            0 - Testing if we get the correct params in the action method: index;
+            1-  Testing  if all the methods a private exept for action method: index ;
+           
