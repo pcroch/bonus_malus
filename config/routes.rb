@@ -1,6 +1,6 @@
 # config/routes.rb
 Rails.application.routes.draw do
-
+root to: 'pages#home'
   # V1 version
   namespace :api, defaults: { format: :json } do
     namespace :v1 do
