@@ -14225,3 +14225,849 @@ Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 125)
   [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
   [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
   [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 179)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 125)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 122)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 122)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 128)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 128)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=12&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["12"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 128)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=12&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["12"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 128)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=2222&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["2222"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 128)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=2222&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["2222"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 128)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=23&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["23"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 128)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=23&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["23"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 128)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 150)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 150)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"years"=>["2"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"years"=>["2"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 145)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 145)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=Hello_World&years[]=1&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["Hello_World"], "years"=>["1"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=Hello_World&years[]=1&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["Hello_World"], "years"=>["1"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=Hello_World&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["Hello_World"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=Hello_World&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["Hello_World"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=Hello_World" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["Hello_World"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=Hello_World" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["Hello_World"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=Hello_World&years[]=Hello_World&pro[]=Hello_World" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["Hello_World"], "years"=>["Hello_World"], "pro"=>["Hello_World"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 150)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=Hello_World&years[]=Hello_World&pro[]=Hello_World" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["Hello_World"], "years"=>["Hello_World"], "pro"=>["Hello_World"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 150)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=&years[]=1&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>[""], "years"=>["1"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=&years[]=1&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>[""], "years"=>["1"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>[""], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>[""], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>[""]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>[""]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=&years[]=&pro[]=" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>[""], "years"=>[""], "pro"=>[""]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 150)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=&years[]=&pro[]=" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>[""], "years"=>[""], "pro"=>[""]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 150)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=3&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["3"], "years"=>["2"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 156)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=3&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["3"], "years"=>["2"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 156)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=2&pro[]=2" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["2"], "pro"=>["2"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=2&pro[]=2" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["2"], "pro"=>["2"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 125)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 125)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 125)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 125)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 125)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-20 18:36:18 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 125)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3506)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 3467)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 3467)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["2"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 3473)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["2"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3473)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=12&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["12"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3473)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=12&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["12"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3473)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=2222&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["2222"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3473)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=2222&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["2222"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3473)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=23&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["23"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3473)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=23&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["23"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3473)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3413)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3413)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3416)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3416)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"years"=>["2"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 3416)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"years"=>["2"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3416)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3300)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3300)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=Hello_World&years[]=1&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["Hello_World"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=Hello_World&years[]=1&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["Hello_World"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=Hello_World&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["Hello_World"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=Hello_World&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["Hello_World"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=Hello_World" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["Hello_World"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=Hello_World" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["Hello_World"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=Hello_World&years[]=Hello_World&pro[]=Hello_World" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["Hello_World"], "years"=>["Hello_World"], "pro"=>["Hello_World"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3467)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=Hello_World&years[]=Hello_World&pro[]=Hello_World" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["Hello_World"], "years"=>["Hello_World"], "pro"=>["Hello_World"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3467)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=&years[]=1&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>[""], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=&years[]=1&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>[""], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>[""], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>[""], "pro"=>["1"]}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>[""]}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>[""]}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=&years[]=&pro[]=" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>[""], "years"=>[""], "pro"=>[""]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3467)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=&years[]=&pro[]=" for 127.0.0.1 at 2021-01-21 10:47:22 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>[""], "years"=>[""], "pro"=>[""]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3467)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=3&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:23 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["3"], "years"=>["2"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3473)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=3&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:23 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["3"], "years"=>["2"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3473)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=2&pro[]=2" for 127.0.0.1 at 2021-01-21 10:47:23 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=2&pro[]=2" for 127.0.0.1 at 2021-01-21 10:47:23 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["2"], "pro"=>["2"]}
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:23 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:23 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:23 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:23 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:23 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:47:23 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3470)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "schema_sha1"]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 179)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 125)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 122)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 122)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 128)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 128)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=12&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["12"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 128)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=12&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["12"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 128)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=2222&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["2222"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 128)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=2222&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["2222"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 128)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=23&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["23"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 128)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=0&years[]=23&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["0"], "years"=>["23"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 128)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 150)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 150)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"years"=>["2"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"years"=>["2"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 145)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 145)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=Hello_World&years[]=1&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["Hello_World"], "years"=>["1"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=Hello_World&years[]=1&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["Hello_World"], "years"=>["1"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=Hello_World&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["Hello_World"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=Hello_World&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["Hello_World"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=Hello_World" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["Hello_World"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=Hello_World" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["Hello_World"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=Hello_World&years[]=Hello_World&pro[]=Hello_World" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["Hello_World"], "years"=>["Hello_World"], "pro"=>["Hello_World"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 150)
+  [1m[35m (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=Hello_World&years[]=Hello_World&pro[]=Hello_World" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["Hello_World"], "years"=>["Hello_World"], "pro"=>["Hello_World"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 150)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=&years[]=1&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>[""], "years"=>["1"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=&years[]=1&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>[""], "years"=>["1"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>[""], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>[""], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>[""]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>[""]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=&years[]=&pro[]=" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>[""], "years"=>[""], "pro"=>[""]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 150)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=&years[]=&pro[]=" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>[""], "years"=>[""], "pro"=>[""]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 150)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=3&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["3"], "years"=>["2"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 156)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=3&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["3"], "years"=>["2"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 156)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=2&pro[]=2" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["2"], "pro"=>["2"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=1&years[]=2&pro[]=2" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["2"], "pro"=>["2"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 153)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 125)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 125)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 125)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 125)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms | Allocations: 125)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+Started GET "/api/v2/scores/?sinister[]=2&years[]=2&pro[]=1" for 127.0.0.1 at 2021-01-21 10:53:10 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["2"], "years"=>["2"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 125)
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.0ms)[0m  [1m[31mROLLBACK[0m

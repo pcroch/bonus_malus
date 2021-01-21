@@ -10175,3 +10175,56 @@ Processing by PagesController#home as HTML
 Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 109)
 
 
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-21 10:44:32 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1072)
+
+
+  
+NoMethodError (undefined method `new' for -3157847600028431594:Integer
+Did you mean?  next):
+  
+app/controllers/api/v2/scores_controller.rb:5:in `index'
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-21 10:44:56 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 133114ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 969325)
+
+
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-21 10:48:04 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 33195ms (ActiveRecord: 0.0ms | Allocations: 439222)
+
+
+  
+NameError (undefined local variable or method `params_hash' for #<Api::V2::ScoresController:0x00007efd74affbb8>
+Did you mean?  params):
+  
+app/controllers/api/v2/scores_controller.rb:21:in `error_handeler'
+app/controllers/api/v2/scores_controller.rb:11:in `index'
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-21 10:48:43 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 65543ms (ActiveRecord: 0.0ms | Allocations: 252841)
+
+
+  
+NameError (undefined local variable or method `params_hash' for #<Api::V2::ScoresController:0x00007f45d0b20710>
+Did you mean?  @params_hash):
+  
+app/controllers/api/v2/scores_controller.rb:21:in `error_handeler'
+app/controllers/api/v2/scores_controller.rb:11:in `index'
+Started GET "/api/v2/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-21 10:49:53 +0000
+Processing by Api::V2::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 190148ms (ActiveRecord: 0.0ms | Allocations: 1295189)
+
+
+  
+NameError (undefined local variable or method `params_hash' for #<Api::V2::ScoresController:0x00007f2778ae8278>
+Did you mean?  @@params_hash):
+  
+app/controllers/api/v2/scores_controller.rb:21:in `error_handeler'
+app/controllers/api/v2/scores_controller.rb:11:in `index'
