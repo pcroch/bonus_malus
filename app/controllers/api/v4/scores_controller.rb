@@ -2,6 +2,7 @@ require 'pry'
 
 class Api::V4::ScoresController < Api::V4::BaseController
   def index
+    # creating a hash
     @@params_hash = {}
     @@params_hash[:sinister] = params[:sinister]
     @@params_hash[:years] = params[:years]
