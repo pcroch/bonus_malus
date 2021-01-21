@@ -26,5 +26,14 @@ root to: 'pages#home'
     end
   end
 
+
+    #v4 version
+  namespace :api, defaults: { format: :json } do
+    namespace :v4 do
+      resources :scores, only: [:index]
+      get '*path', to: 'base#render_not_found'
+    end
+  end
+
 end
 # why not a collection
