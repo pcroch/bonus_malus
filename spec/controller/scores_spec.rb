@@ -3,11 +3,11 @@ require 'rails_helper'
 require 'spec_helper'
 
 ### version definition
-version = "v2"
+version = "v4"
 
 ## please ;odify the object version to adapt as per
 ## the api version you want to to test
-object_version = Api::V2::ScoresController.new
+object_version = Api::V4::ScoresController.new
 
 ### Integration testing
 RSpec.describe 'Integration testing for Querry string: computation', type: :request do
