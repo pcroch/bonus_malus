@@ -10361,3 +10361,71 @@ Completed 200 OK in 10059ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1
 
 Processing by Api::V4::ScoresController#index as JSON
   Parameters: {"sinister"=>["1"], "years"=>["1"]}
+Started GET "/api/v4/scores/?sinister[]=1&years[]=1&" for ::1 at 2021-01-22 18:10:46 +0000
+Processing by Api::V4::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 206)
+
+
+Started GET "/api/v4/scores/?sinister[]=1&years[]=1&" for ::1 at 2021-01-22 18:10:52 +0000
+Processing by Api::V4::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"]}
+Completed 406 Not Acceptable in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 159)
+
+
+Started GET "/api/v4/scores/?sinister[]=1&years[]=1&" for ::1 at 2021-01-22 18:11:03 +0000
+Processing by Api::V4::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"]}
+Started GET "/api/v4/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-22 18:16:15 +0000
+Completed 406 Not Acceptable in 319105ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1484304)
+
+
+Processing by Api::V4::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 200 OK in 0ms (Views: 0.1ms | ActiveRecord: 0.0ms | Allocations: 131)
+
+
+Started GET "/api/v4/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-22 18:16:40 +0000
+Processing by Api::V4::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 335)
+
+
+  
+TypeError (no implicit conversion of Array into Integer):
+  
+app/controllers/api/v4/scores_controller.rb:44:in `computation'
+app/controllers/api/v4/scores_controller.rb:30:in `error_handeler'
+app/controllers/api/v4/scores_controller.rb:7:in `index'
+Started GET "/api/v4/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-22 18:16:52 +0000
+Processing by Api::V4::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms | Allocations: 332)
+
+
+  
+TypeError (no implicit conversion of Symbol into Integer):
+  
+app/controllers/api/v4/scores_controller.rb:44:in `computation'
+app/controllers/api/v4/scores_controller.rb:30:in `error_handeler'
+app/controllers/api/v4/scores_controller.rb:7:in `index'
+Started GET "/api/v4/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-22 18:17:23 +0000
+Processing by Api::V4::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 406 Not Acceptable in 60708ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 82806)
+
+
+Started GET "/api/v4/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-22 18:18:27 +0000
+Processing by Api::V4::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
+Completed 500 Internal Server Error in 311123ms (ActiveRecord: 0.0ms | Allocations: 771718)
+
+
+  
+NoMethodError (undefined method `any?' for -752124782222057052:Integer):
+  
+app/controllers/api/v4/scores_controller.rb:14:in `error_handeler'
+app/controllers/api/v4/scores_controller.rb:7:in `index'
+Started GET "/api/v4/scores/?sinister[]=1&years[]=1&pro[]=1" for ::1 at 2021-01-22 18:23:43 +0000
+Processing by Api::V4::ScoresController#index as JSON
+  Parameters: {"sinister"=>["1"], "years"=>["1"], "pro"=>["1"]}
