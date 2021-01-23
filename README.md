@@ -11,7 +11,7 @@ The score is set with a minimum of -2: That is to say that no matter, the years 
 
 **End-points**
         
-      Version 4 is actually the production one. A version 3 is one production right now.
+      Version 4 is actually the production one.
 
 **End-points**
      
