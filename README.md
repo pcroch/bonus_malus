@@ -11,20 +11,20 @@ The score is set with a minimum of -2: That is to say that no matter, the years 
 
 **End-points**
         
-      Version 2 is actually the production one. A version 3 is one production right now.
+      Version 4 is actually the production one. A version 3 is one production right now.
 
 **End-points**
      
-     In production: https://bomus-malus.herokuapp.com/api/v2/scores?sinister[]=id&years[]=id&pro[]=id
+     In production: https://bomus-malus.herokuapp.com/api/v4/scores?sinister[]=id&years[]=id&pro[]=id
      NB: For now, I will use the local url in the documentation and not the production one. (I will update it later)
 
-     local URL: http://localhost:3000/api/v2/scores?sinister[]=id&years[]=id&pro[]=id
+     local URL: http://localhost:3000/api/v4/scores?sinister[]=id&years[]=id&pro[]=id
             The api can only be used with the **get** method ! 
 
 **How to fetch**
 
       1 * launch and install the rails server with the following command:
-            git@github.com:pcroch/bonus_malus.git
+            git clone git@github.com:pcroch/bonus_malus.git
             cd bonus_malus 
             yarn install && bundle install
             rails db:create db:migrate
@@ -32,7 +32,7 @@ The score is set with a minimum of -2: That is to say that no matter, the years 
 
       2 * Execute the following command with the desire params: 
       
-            curl http://localhost:3000/api/v2/scores\?sinister[]=2&years[]=2&pro[]=1
+            curl http://localhost:3000/api/v4/scores\?sinister[]=2&years[]=2&pro[]=1
             
             ==> render: {"Bonus_Malus_Score":22,"status":"success"}
 
@@ -96,6 +96,9 @@ The score is set with a minimum of -2: That is to say that no matter, the years 
 **A- HOW TO**
 
       Run: bundle exec rspec
+      
+      It will launch the Unit testing and Integration testing
+      You can change the version of the API to test by changing the API version variable in the Rspec file
       
  
 **B- Integration Testing Description**
