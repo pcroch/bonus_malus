@@ -9,7 +9,7 @@ The score is set with a minimum of -2: That is to say that no matter, the years 
 
 ## II. Technical description
 
-**End-points**
+**Current version**
         
       Version 4 is actually the production one.
 
