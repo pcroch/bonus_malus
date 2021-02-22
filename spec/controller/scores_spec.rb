@@ -281,10 +281,10 @@ RSpec.describe 'Integration testing for Error code 5: Pro params should be 0 or 
   end
 end
 
-### Integration testing only for #{version} version
+### Unit testing only for #{version} version
 
 # testing querry string
-RSpec.describe 'Uit Testing the key presence and correct value for each key in the querry string', type: :request do
+RSpec.describe 'Unit Testing the key presence and correct value for each key in the querry string', type: :request do
   # Test suite for GET /articles
   describe 'Testing the sinister key' do
     # make HTTP get request before each example
