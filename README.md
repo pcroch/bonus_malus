@@ -9,7 +9,7 @@ The score is set with a minimum of -2: That is to say that no matter, the years 
 
 ## II. Technical description
 
-**End-points**
+**Current version**
         
       Version 4 is actually the production one.
 
@@ -91,7 +91,7 @@ The score is set with a minimum of -2: That is to say that no matter, the years 
     - The pro params is a binary param as such it only accepts 0 or 1. if you put any others value you will have an error message asking you to change that value.
     - For example: " sinister[]=3&years[]=2&pro[]=2 " =+> the pro parmas has an incorrect value.
     
-## II. Testing description
+## III. Testing description
 
 **A- HOW TO**
 
